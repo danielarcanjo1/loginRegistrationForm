@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    max-width:47.5625rem;
+    max-height: 34rem;
+    gap:20px;
+    padding: 10px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top:60px;
+}
+
+.login button{
+    width: 262px;
+    height: 31px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #A0BB9C;
+}
+
+.login button:hover{
+    background-color: #bdd1ba;
+}
+
+.separator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 408px;
+    height: 491px;
+    background-color: #A0BB9C;
+    padding: 10px 60px 10px 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+.input-name, .input-password{
+    width: 262px;
+    height: 31px;
+    padding: 5px;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#input-name, #input-password{
+    border: none;
+    outline: none;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.input-wrapper input{
+    width: 284px;
+    height: 31px
+}
+
+.input-wrapper div{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 5px 10px 5px;
+}
+.input-wrapper div input{
+    border: none;
+    outline: none;
+}
+.input-date{
+    display: flex;
+    gap:10px;
+}
+
+.input-date input{
+    width: 10px;
+    padding: 5px 10px 5px 10px ;
+}
+
+#dia{
+    width: 63px;
+    height: 31px
+}
+
+#mes{
+    
+    width: 106px;
+    height: 31px;
+}
+
+#ano{
+    width: 85px;
+    height: 31px;
+}
+
+#register-button{
+    width: 185px;
+    height: 40px;
+    background-color: #4A6D44;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    color: #FFF;
+    font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 2px;
+    
+}
+
+.paragrafo{
+    text-align: center;
+    font-weight: 700;
+}
