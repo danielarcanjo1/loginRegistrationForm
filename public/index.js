@@ -1,5 +1,5 @@
-const googleLogin = document.
+const googleLogin = document.getElementById('buttonGoogle')
 
-googleLogin.addEventListener('onsubmit', () => {
+googleLogin.addEventListener('click', () => {
     alert('caixa do google')
 })
